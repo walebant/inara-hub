@@ -38,7 +38,7 @@ const Hero = () => {
 
       <div className='Hero Hero2'>
         <h1>Our Partners & Sponsors</h1>
-        <section>
+        <section className='sponsors'>
           <ul>
             <li>
               <img alt='logo' src={careedLogo} />
@@ -58,7 +58,7 @@ const Hero = () => {
           </ul>
         </section>
 
-        <section>
+        <section className='grid'>
           <div className='left'>
             <div className='video'>
               <RiPlayCircleFill className='play' />
@@ -146,9 +146,7 @@ const Hero = () => {
 
         <section className='row'>
           <div className='column'>
-            {/* <div className='img-container'> */}
             <img alt='man' src={card1} />
-            {/* </div> */}
 
             <div className='description'>
               <h2>How Ag-Tech Ripened Into a Growing Market</h2>
@@ -161,9 +159,7 @@ const Hero = () => {
             </div>
           </div>
           <div className='column'>
-            {/* <div className='img-container'> */}
             <img alt='man' src={card2} />
-            {/* </div> */}
 
             <div className='description'>
               <h2>The Future Is Green and Growing Fast</h2>
@@ -176,9 +172,7 @@ const Hero = () => {
             </div>
           </div>
           <div className='column'>
-            {/* <div className='img-container'> */}
             <img alt='man' src={card1} />
-            {/* </div> */}
 
             <div className='description'>
               <h2>We're Ignoring the Only Industry We Can't Do</h2>
