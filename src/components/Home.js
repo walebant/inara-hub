@@ -1,20 +1,20 @@
 import React from 'react';
-import hero from '../../assets/images/hero.png';
-import iCreateLogo from '../../assets/images/iCreate-logo.png';
-import nepcLogo from '../../assets/images/nepc-logo.png';
-import awibLogo from '../../assets/images/awib-consulting.png';
-import careedLogo from '../../assets/images/group-4.png';
-import { ReactComponent as HandshakeIcon } from '../../assets/icons/handshake-icon.svg';
-import { ReactComponent as BagIcon } from '../../assets/icons/bag-icon.svg';
-import { ReactComponent as GuideIcon } from '../../assets/icons/guide-icon.svg';
-import { ReactComponent as FeedbackIcon } from '../../assets/icons/feedback-icon.svg';
+import hero from '../assets/images/hero.png';
+import iCreateLogo from '../assets/images/iCreate-logo.png';
+import nepcLogo from '../assets/images/nepc-logo.png';
+import awibLogo from '../assets/images/awib-consulting.png';
+import careedLogo from '../assets/images/group-4.png';
+import { ReactComponent as HandshakeIcon } from '../assets/icons/handshake-icon.svg';
+import { ReactComponent as BagIcon } from '../assets/icons/bag-icon.svg';
+import { ReactComponent as GuideIcon } from '../assets/icons/guide-icon.svg';
+import { ReactComponent as FeedbackIcon } from '../assets/icons/feedback-icon.svg';
 
-import card1 from '../../assets/images/card1.png';
-import card2 from '../../assets/images/card2.png';
+import card1 from '../assets/images/card1.png';
+import card2 from '../assets/images/card2.png';
 
-import piggy from '../../assets/images/piggy.png';
-import organic from '../../assets/images/organic.png';
-import prepare from '../../assets/images/prepare.png';
+import piggy from '../assets/images/piggy.png';
+import organic from '../assets/images/organic.png';
+import prepare from '../assets/images/prepare.png';
 
 import { RiPlayCircleFill } from 'react-icons/ri';
 
