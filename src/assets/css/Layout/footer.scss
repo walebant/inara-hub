@@ -21,11 +21,22 @@
     margin-top: 1em;
     padding: 40px 0;
 
+    @include mobile {
+      flex-direction: column;
+      gap: 1em;
+    }
+
     .logo-container {
       width: 30%;
+      @include mobile {
+        width: 100%;
+      }
 
       img {
-        width: 200px;
+        width: 15vw;
+        @include mobile {
+          width: 50%;
+        }
       }
     }
 
@@ -54,6 +65,10 @@
         max-width: 300px;
         font-size: $font-sm;
         line-height: 1.7em;
+
+        @include mobile {
+          width: 100%;
+        }
       }
 
       form {
@@ -95,8 +110,12 @@
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    padding: 5px 100px;
+    padding: 5px 5em;
     color: $white;
+
+    @include mobile {
+      padding: 5px 1em;
+    }
 
     position: absolute;
     // bottom: 0;
@@ -115,6 +134,12 @@
     .copyright {
       font-size: $font-sm;
       width: max-content;
+
+      @include mobile {
+        font-size: 11px;
+        position: relative;
+        top: 3px;
+      }
     }
   }
 }
