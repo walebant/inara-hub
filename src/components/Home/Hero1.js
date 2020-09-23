@@ -87,8 +87,8 @@ const Hero = () => {
           need to grow your agro-business
         </h2>
 
-        <section className='row'>
-          <div className='column'>
+        <section className='grid'>
+          <div className='grid-item'>
             <div className='icon-box'>
               <BagIcon />
             </div>
@@ -100,7 +100,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className='column essential-guide'>
+          <div className='grid-item essential-guide'>
             <div className='icon-box'>
               <GuideIcon />
             </div>
@@ -109,9 +109,7 @@ const Hero = () => {
               <p>Learn about prospective export markets</p>
             </div>
           </div>
-        </section>
-        <section className='row'>
-          <div className='column'>
+          <div className='grid-item'>
             <div className='icon-box'>
               <FeedbackIcon />
             </div>
@@ -123,7 +121,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className='column'>
+          <div className='grid-item'>
             <div className='icon-box'>
               <HandshakeIcon />
             </div>

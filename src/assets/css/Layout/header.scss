@@ -7,6 +7,9 @@
 
   .logo-container {
     width: 30%;
+    @include mobile {
+      width: max-content;
+    }
 
     img {
       width: 140px;

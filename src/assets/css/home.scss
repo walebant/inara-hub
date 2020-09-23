@@ -180,31 +180,29 @@
     text-align: left;
   }
 
-  .row {
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
-    flex-wrap: wrap;
-    width: 65%;
-    margin: 2em auto;
+  .grid {
+    max-width: 70%;
+    margin: 3em auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 2rem;
 
-    .column {
+    .grid-item {
       display: flex;
-      // flex-direction: column;
-      flex-basis: 100%;
-      flex: 1;
-      // border: 1px solid green;
-      &.essential-guide,
-      &.essential-guide .text {
+
+      &.essential-guide {
         position: relative;
         left: -23px;
       }
 
+      &.essential-guide .text {
+        position: relative;
+        left: -15px;
+      }
+
       .icon-box {
-        // border: 1px solid red;
-        width: 30%;
+        width: 200px;
         height: 100%;
-        // border: 1px solid green;
         position: relative;
         top: -20px;
         svg {
@@ -217,11 +215,11 @@
         text-align: left;
         padding-left: 15px;
         h2 {
-          font-size: 0.9em;
+          font-size: 1.1em;
         }
 
         p {
-          font-size: 0.8em;
+          font-size: 1em;
           padding-top: 10px;
           line-height: 1.5em;
           color: $text-light;
