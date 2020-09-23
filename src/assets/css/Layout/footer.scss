@@ -1,12 +1,17 @@
 .Footer {
   // position: absolute;
   // bottom: 0;
+  padding: $page-padding;
 
   hr {
     border: none;
     height: 1px;
-    color: #f6f6f7;
-    background-color: #f6f6f7;
+    color: #979797;
+    background-color: #979797;
+    opacity: 0.2;
+    width: 100vw;
+    position: relative;
+    left: -100px;
   }
 
   .container {
@@ -14,6 +19,7 @@
     justify-content: space-between;
     background-color: $white;
     margin-top: 1em;
+    padding: 40px 0;
 
     .logo-container {
       width: 30%;
@@ -32,6 +38,7 @@
 
           a {
             color: $text-light;
+            font-size: $font-sm;
           }
         }
       }
@@ -57,13 +64,13 @@
 
           svg {
             position: absolute;
-            top: 32px;
+            top: 37px;
             left: 10px;
             color: #92929d;
           }
           input {
             margin-top: 20px;
-            padding: 10px 20px;
+            padding: 15px;
             padding-left: 30px;
             border: 2px solid #f6f6f7;
             border-radius: 4px;
@@ -79,6 +86,35 @@
           }
         }
       }
+    }
+  }
+
+  .bottom {
+    background-color: #4a4a4a;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 5px 100px;
+    color: $white;
+
+    position: absolute;
+    // bottom: 0;
+    left: 0;
+    .socials {
+      position: relative;
+      top: 2px;
+      display: flex;
+      gap: 10px;
+
+      a {
+        color: $white;
+      }
+    }
+
+    .copyright {
+      font-size: $font-sm;
+      width: max-content;
     }
   }
 }

@@ -1,18 +1,23 @@
 .Header {
   background-color: $primary;
   display: flex;
-  // padding: 10px 20px;
   width: 100%;
+  padding: $page-padding;
+  padding-top: 20px;
 
   .logo-container {
     width: 30%;
 
     img {
-      width: 130px;
+      width: 140px;
     }
   }
 
   ul {
+    @include mobile {
+      display: none;
+    }
+
     display: flex;
     justify-content: space-between;
 
@@ -39,12 +44,15 @@
 
   ul.nav-button {
     width: 30%;
-    margin-left: 50px;
+    // margin-left: 50px;
+    gap: 2em;
     justify-content: flex-end;
 
     button {
       padding: 10px 20px;
-      width: max-content;
+      width: fit-content;
+      width: 120px;
+      display: inline-block;
 
       &.login {
         background-color: transparent;

@@ -9,6 +9,15 @@ import { ReactComponent as BagIcon } from '../../assets/icons/bag-icon.svg';
 import { ReactComponent as GuideIcon } from '../../assets/icons/guide-icon.svg';
 import { ReactComponent as FeedbackIcon } from '../../assets/icons/feedback-icon.svg';
 
+import card1 from '../../assets/images/card1.png';
+import card2 from '../../assets/images/card2.png';
+
+import piggy from '../../assets/images/piggy.png';
+import organic from '../../assets/images/organic.png';
+import prepare from '../../assets/images/prepare.png';
+
+import { RiPlayCircleFill } from 'react-icons/ri';
+
 const Hero = () => {
   return (
     <>
@@ -51,16 +60,9 @@ const Hero = () => {
 
         <section>
           <div className='left'>
-            <h2>
-              Integrating African Agripreneurs to the World Agro-ecosystem
-            </h2>
-            <p>
-              iProduce Africa Agri-business hub is an initiative of Inara
-              Foundation, a non-profit organization established to address
-              development challenges in Nigeria with a focus on the following
-              thematic areas: youth empowerment; economic development; women
-              empowerment; and education..
-            </p>
+            <div className='video'>
+              <RiPlayCircleFill className='play' />
+            </div>
           </div>
 
           <div className='right'>
@@ -143,7 +145,7 @@ const Hero = () => {
         <section className='grid'>
           <div className='grid-item'>
             <div className='img-container'>
-              <HandshakeIcon />
+              <img alt='man' src={card1} />
             </div>
 
             <div className='description'>
@@ -158,11 +160,11 @@ const Hero = () => {
           </div>
           <div className='grid-item'>
             <div className='img-container'>
-              <HandshakeIcon />
+              <img alt='man' src={card2} />
             </div>
 
             <div className='description'>
-              <h2>How Ag-Tech Ripened Into a Growing Market</h2>
+              <h2>The Future Is Green and Growing Fast</h2>
               <p>
                 Some people maybe still confusing to arrange budgeting for their
                 bu…
@@ -173,11 +175,11 @@ const Hero = () => {
           </div>
           <div className='grid-item'>
             <div className='img-container'>
-              <HandshakeIcon />
+              <img alt='man' src={card1} />
             </div>
 
             <div className='description'>
-              <h2>How Ag-Tech Ripened Into a Growing Market</h2>
+              <h2>We're Ignoring the Only Industry We Can't Do</h2>
               <p>
                 Some people maybe still confusing to arrange budgeting for their
                 bu…
@@ -186,6 +188,61 @@ const Hero = () => {
               <a href='#!'>Read more</a>
             </div>
           </div>
+        </section>
+      </div>
+
+      <div className='Hero Hero4'>
+        <section>
+          <h2>Upcoming Events</h2>
+          <button>Show more</button>
+        </section>
+
+        <section className='grid'>
+          <div className='grid-item'>
+            <div className='img-container'>
+              <img alt='man' src={prepare} />
+            </div>
+
+            <div className='description'>
+              <small className='webinar'>Webinar</small>
+              <h2>Prepare Your Agro-Business Plan</h2>
+              <p className='date'>25 Jun 2020, 6:00pm</p>
+            </div>
+          </div>
+          <div className='grid-item'>
+            <div className='img-container'>
+              <img alt='man' src={organic} />
+            </div>
+
+            <div className='description'>
+              <small className='webinar'>Webinar</small>
+              <h2>Organic Farming</h2>
+              <p className='date'>25 Jun 2020, 6:00pm</p>
+            </div>
+          </div>
+          <div className='grid-item'>
+            <div className='img-container'>
+              <img alt='man' src={piggy} />
+            </div>
+
+            <div className='description'>
+              <small className='webinar'>Webinar</small>
+              <h2>Agribusiness Financing</h2>
+              <p className='date'>25 Jun 2020, 6:00pm</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div className='Hero Hero5'>
+        <section className='cta'>
+          <h2>Become a member</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud.
+          </p>
+          <button>JOIN US</button>
         </section>
       </div>
     </>

@@ -1,6 +1,12 @@
 import React from 'react';
 import logo from '../../assets/images/iproduce-logo.png';
 import { BsEnvelope } from 'react-icons/bs';
+import {
+  RiFacebookFill,
+  RiTwitterFill,
+  RiLinkedinFill,
+  RiInstagramLine,
+} from 'react-icons/ri';
 
 const Footer = () => {
   return (
@@ -61,6 +67,25 @@ const Footer = () => {
             </div>
           </form>
         </div>
+      </div>
+      <div className='bottom'>
+        <div className='socials'>
+          <a href='#!'>
+            <RiFacebookFill />
+          </a>
+          <a href='#!'>
+            <RiTwitterFill />
+          </a>
+          <a href='#!'>
+            <RiLinkedinFill />
+          </a>
+          <a href='#!'>
+            <RiInstagramLine />
+          </a>
+        </div>
+        <p className='copyright'>
+          © {new Date().getFullYear()} iProduce. All rights reserved
+        </p>
       </div>
     </footer>
   );
