@@ -1,0 +1,56 @@
+.Hero {
+  height: 90vh;
+  width: 100%;
+}
+
+.Hero1 {
+  padding: 40px 8em 20px 8em;
+  background-color: $primary;
+  display: flex;
+
+  background-image: url('../images/wave-1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+
+  .left,
+  .right {
+    // border: 1px solid red;
+  }
+
+  .left {
+    width: 50%;
+    align-self: center;
+
+    h1 {
+      line-height: 1.3em;
+    }
+
+    p {
+      padding: 1em 0;
+      color: $text-light;
+      max-width: 400px;
+    }
+
+    button {
+      padding: 15px;
+      width: 50%;
+      margin: 2em 0;
+      background-color: $secondary;
+      color: $white;
+      font-weight: bold;
+
+      &:hover {
+      }
+    }
+  }
+
+  .right {
+    width: 50%;
+    overflow: hidden;
+    img {
+      max-width: 100%;
+      max-height: 500px;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.Header {
+  background-color: $primary;
+  display: flex;
+  // padding: 10px 20px;
+  width: 100%;
+
+  .logo-container {
+    width: 30%;
+
+    img {
+      width: 130px;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      list-style: none;
+      padding: 10px;
+
+      a {
+        text-decoration: none;
+        color: $black;
+        font-size: $font-sm;
+        font-weight: bold;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  ul.nav-link {
+    width: 40%;
+    margin-top: 10px;
+  }
+
+  ul.nav-button {
+    width: 30%;
+    margin-left: 50px;
+    justify-content: flex-end;
+
+    button {
+      padding: 10px 20px;
+      width: max-content;
+
+      &.login {
+        background-color: transparent;
+        color: $secondary;
+        border: 1px solid $secondary;
+      }
+
+      &.join-us {
+        background-color: $secondary;
+        color: $white;
+        border: 1px solid $secondary;
+      }
+    }
+  }
+}
