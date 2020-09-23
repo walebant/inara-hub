@@ -146,9 +146,9 @@ const Hero = () => {
 
         <section className='row'>
           <div className='column'>
-            <div className='img-container'>
-              <img alt='man' src={card1} />
-            </div>
+            {/* <div className='img-container'> */}
+            <img alt='man' src={card1} />
+            {/* </div> */}
 
             <div className='description'>
               <h2>How Ag-Tech Ripened Into a Growing Market</h2>
@@ -161,9 +161,9 @@ const Hero = () => {
             </div>
           </div>
           <div className='column'>
-            <div className='img-container'>
-              <img alt='man' src={card2} />
-            </div>
+            {/* <div className='img-container'> */}
+            <img alt='man' src={card2} />
+            {/* </div> */}
 
             <div className='description'>
               <h2>The Future Is Green and Growing Fast</h2>
@@ -176,9 +176,9 @@ const Hero = () => {
             </div>
           </div>
           <div className='column'>
-            <div className='img-container'>
-              <img alt='man' src={card1} />
-            </div>
+            {/* <div className='img-container'> */}
+            <img alt='man' src={card1} />
+            {/* </div> */}
 
             <div className='description'>
               <h2>We're Ignoring the Only Industry We Can't Do</h2>
@@ -201,9 +201,7 @@ const Hero = () => {
 
         <section className='row'>
           <div className='column'>
-            <div className='img-container'>
-              <img alt='man' src={prepare} />
-            </div>
+            <img alt='man' src={prepare} />
 
             <div className='description'>
               <small className='webinar'>Webinar</small>
@@ -212,9 +210,7 @@ const Hero = () => {
             </div>
           </div>
           <div className='column'>
-            <div className='img-container'>
-              <img alt='man' src={organic} />
-            </div>
+            <img alt='man' src={organic} />
 
             <div className='description'>
               <small className='webinar'>Webinar</small>
@@ -223,9 +219,7 @@ const Hero = () => {
             </div>
           </div>
           <div className='column'>
-            <div className='img-container'>
-              <img alt='man' src={piggy} />
-            </div>
+            <img alt='man' src={piggy} />
 
             <div className='description'>
               <small className='webinar'>Webinar</small>
