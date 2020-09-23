@@ -153,7 +153,7 @@ const Hero = () => {
                 bu…
               </p>
 
-              <a href=''>Read more</a>
+              <a href='#!'>Read more</a>
             </div>
           </div>
           <div className='grid-item'>
@@ -168,7 +168,7 @@ const Hero = () => {
                 bu…
               </p>
 
-              <a href=''>Read more</a>
+              <a href='#!'>Read more</a>
             </div>
           </div>
           <div className='grid-item'>
@@ -183,7 +183,7 @@ const Hero = () => {
                 bu…
               </p>
 
-              <a href=''>Read more</a>
+              <a href='#!'>Read more</a>
             </div>
           </div>
         </section>
