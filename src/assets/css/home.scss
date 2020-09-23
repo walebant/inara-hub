@@ -1,6 +1,7 @@
 .Hero {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
+  padding: 40px 8em 20px 8em;
 }
 
 .Hero1 {
@@ -12,11 +13,6 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom;
-
-  .left,
-  .right {
-    // border: 1px solid red;
-  }
 
   .left {
     width: 50%;
@@ -51,6 +47,119 @@
     img {
       max-width: 100%;
       max-height: 500px;
+    }
+  }
+}
+
+.Hero2 {
+  h1 {
+    text-align: center;
+    color: $text-light;
+    font-size: $font-md;
+  }
+
+  section {
+    // width: 70%;
+    margin-top: 4em;
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+
+    ul {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 4em;
+
+      li {
+        img {
+          width: 170px;
+          height: auto;
+        }
+      }
+    }
+    .right,
+    .left {
+      h2 {
+        font-weight: bold;
+        max-width: 400px;
+      }
+
+      p {
+        padding: 1em 0;
+        color: $text-light;
+        max-width: 400px;
+        line-height: 1.8em;
+      }
+    }
+  }
+}
+
+.Hero3 {
+  text-align: center;
+  // padding: 60px 80px;
+  background-color: #f9f9f9;
+  padding-top: 60px;
+  height: 80vh;
+
+  h5 {
+    color: #00b5f3;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    line-height: 1.6em;
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  .grid {
+    margin-top: 70px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(47%, 2fr));
+    grid-gap: 2rem;
+
+    .grid-item {
+      display: flex;
+      width: 100%;
+      // border: 1px solid green;
+      // justify-content: center;
+      // align-items: center;
+      &.essential-guide,
+      &.essential-guide .text {
+        position: relative;
+        left: -10px;
+      }
+
+      .icon-box {
+        width: 80px;
+        // height: 100%;
+        // border: 1px solid green;
+        position: relative;
+        top: -10px;
+        svg {
+          width: 60px;
+          // height: 1000px;
+        }
+      }
+
+      .text {
+        text-align: left;
+        padding-left: 15px;
+        h2 {
+          font-size: 0.9em;
+        }
+
+        p {
+          font-size: 0.8em;
+          padding-top: 10px;
+          line-height: 1.5em;
+          color: $text-light;
+        }
+      }
     }
   }
 }
