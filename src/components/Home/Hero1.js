@@ -87,8 +87,8 @@ const Hero = () => {
           need to grow your agro-business
         </h2>
 
-        <section className='grid'>
-          <div className='grid-item'>
+        <section className='row'>
+          <div className='column'>
             <div className='icon-box'>
               <BagIcon />
             </div>
@@ -100,7 +100,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className='grid-item essential-guide'>
+          <div className='column essential-guide'>
             <div className='icon-box'>
               <GuideIcon />
             </div>
@@ -109,7 +109,9 @@ const Hero = () => {
               <p>Learn about prospective export markets</p>
             </div>
           </div>
-          <div className='grid-item'>
+        </section>
+        <section className='row'>
+          <div className='column'>
             <div className='icon-box'>
               <FeedbackIcon />
             </div>
@@ -121,7 +123,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className='grid-item'>
+          <div className='column'>
             <div className='icon-box'>
               <HandshakeIcon />
             </div>
@@ -142,8 +144,8 @@ const Hero = () => {
           <button>Show more</button>
         </section>
 
-        <section className='grid'>
-          <div className='grid-item'>
+        <section className='row'>
+          <div className='column'>
             <div className='img-container'>
               <img alt='man' src={card1} />
             </div>
@@ -158,7 +160,7 @@ const Hero = () => {
               <a href='#!'>Read more</a>
             </div>
           </div>
-          <div className='grid-item'>
+          <div className='column'>
             <div className='img-container'>
               <img alt='man' src={card2} />
             </div>
@@ -173,7 +175,7 @@ const Hero = () => {
               <a href='#!'>Read more</a>
             </div>
           </div>
-          <div className='grid-item'>
+          <div className='column'>
             <div className='img-container'>
               <img alt='man' src={card1} />
             </div>
@@ -197,8 +199,8 @@ const Hero = () => {
           <button>Show more</button>
         </section>
 
-        <section className='grid'>
-          <div className='grid-item'>
+        <section className='row'>
+          <div className='column'>
             <div className='img-container'>
               <img alt='man' src={prepare} />
             </div>
@@ -209,7 +211,7 @@ const Hero = () => {
               <p className='date'>25 Jun 2020, 6:00pm</p>
             </div>
           </div>
-          <div className='grid-item'>
+          <div className='column'>
             <div className='img-container'>
               <img alt='man' src={organic} />
             </div>
@@ -220,7 +222,7 @@ const Hero = () => {
               <p className='date'>25 Jun 2020, 6:00pm</p>
             </div>
           </div>
-          <div className='grid-item'>
+          <div className='column'>
             <div className='img-container'>
               <img alt='man' src={piggy} />
             </div>
