@@ -142,18 +142,35 @@ const Hero = () => {
 
         <section className='grid'>
           <div className='grid-item'>
-            <div className='icon-box'>
-              <FeedbackIcon />
+            <div className='img-container'>
+              <HandshakeIcon />
             </div>
-            <div className='text'>
-              <h2>Easy feedback sharing</h2>
+
+            <div className='description'>
+              <h2>How Ag-Tech Ripened Into a Growing Market</h2>
               <p>
-                Attend our events tailored to build the capacity of our
-                agripreneurs
+                Some people maybe still confusing to arrange budgeting for their
+                bu…
               </p>
+
+              <a href=''>Read more</a>
             </div>
           </div>
+          <div className='grid-item'>
+            <div className='img-container'>
+              <HandshakeIcon />
+            </div>
 
+            <div className='description'>
+              <h2>How Ag-Tech Ripened Into a Growing Market</h2>
+              <p>
+                Some people maybe still confusing to arrange budgeting for their
+                bu…
+              </p>
+
+              <a href=''>Read more</a>
+            </div>
+          </div>
           <div className='grid-item'>
             <div className='img-container'>
               <HandshakeIcon />
