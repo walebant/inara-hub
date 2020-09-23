@@ -356,22 +356,28 @@
   flex-direction: column;
   margin-top: -100px;
   margin-bottom: -50px;
+  border-radius: 10px;
+  @include mobile {
+    margin-top: -150px;
+  }
 
   .cta {
     text-align: center;
     background-image: url('../images/membership.png');
     background-repeat: no-repeat;
     background-position: center bottom;
-    height: 300px;
-    overflow: hidden;
+    // height: 300px;
+    // overflow: hidden;
     object-fit: contain;
     border-radius: 10px;
-
     color: $white;
     padding: 2em 0;
 
     h2 {
-      font-size: 2.5em;
+      font-size: 2.3rem;
+      @include mobile {
+        font-size: 1.5rem;
+      }
     }
 
     p {
@@ -381,6 +387,9 @@
       width: 55%;
       text-align: center;
       line-height: 1.5em;
+      @include mobile {
+        width: 90%;
+      }
     }
 
     button {
@@ -390,6 +399,11 @@
       background-color: $white;
       color: #5a4ba8;
       font-weight: bold;
+
+      @include mobile {
+        width: 90%;
+        margin-bottom: 2em;
+      }
     }
   }
 }
